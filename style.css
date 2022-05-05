@@ -1,0 +1,149 @@
+.d-flex button{
+    margin: 1.5em 0.4em;
+    border-radius: 1em;
+    padding: 0.5em 2.4em;
+}
+.d-flex table{
+    margin: 1em 10em;
+}
+
+table .btnedit
+{
+    color: rgba(253, 186, 17, 0.94);
+    cursor: pointer;
+}
+.success{
+    background-color: lightgreen;
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 4em;
+    padding: 1em;
+}
+.error{
+    background-color: tomato;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 4em;
+    font-size: 15px;
+    padding: 1em;
+}
+/*.form-inline{*/
+/*    margin-right: ;*/
+/*        background-color: tomato;*/
+/*}*/
+
+
+
+
+/*!*new design*/
+.text-light{
+    font-family: "2  Esfehan";
+}
+
+@media screen and (max-width: 767px){
+
+    #colorful-nav ul>li {
+        text-align: center;
+        width: 100%;
+    }
+
+    #colorful-nav ul>li:hover{
+        padding-top: 0px;
+    }}
+
+
+/*profile*/
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+    border-radius: 2em;
+}
+.profile-img img {
+    width: 70%;
+    height: 100%;
+}
+
+.profile-head h5{
+    font-family: "2  Esfehan";
+    font-size: 30px;
+    color: #333;
+}
+.profile-head p.text-right{
+    font-family: "2  Farnaz";
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+
+/** { background-color: rgba(255,0,0,.2); }*/
+/** * { background-color: rgba(0,255,0,.2); }*/
+/** * * { background-color: rgba(0,0,255,.2); }*/
+/** * * * { background-color: rgba(255,0,255,.2); }*/
+/** * * * * { background-color: rgba(0,255,255,.2); }*/
+/** * * * * * { background-color: rgba(255,255,0,.2); }*/
