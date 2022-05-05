@@ -75,12 +75,12 @@
                 if($result){
                     while($row=mysqli_fetch_assoc($result)){?>
                         <tr>
-                            <td data-id = "<?php  echo $row['id']  ?>"><?php  echo $row['id']  ?></td>
-                            <td data-id = "<?php  echo $row['id']  ?>"><?php  echo $row['student_id']  ?></td>
-                            <td data-id = "<?php  echo $row['id']  ?>"><?php  echo $row['stname']  ?></td>
-                            <td data-id = "<?php  echo $row['id']  ?>"><?php  echo $row['stlastname']  ?></td>
-                            <td data-id = "<?php  echo $row['id']  ?>"><?php  echo $row['stage']  ?></td>
-                            <td data-id = "<?php  echo $row['id']  ?>"><?php  echo $row['stgender']  ?></td>
+                            <td data-id = "<?=  $row['id']  ?>"><?php  echo $row['id']  ?></td>
+                            <td data-id = "<?= $row['id']  ?>"><?php  echo $row['student_id']  ?></td>
+                            <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stname']  ?></td>
+                            <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stlastname']  ?></td>
+                            <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stage']  ?></td>
+                            <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stgender']  ?></td>
                             <td ><i class="fas fa-edit btnedit" data-id="<?php echo $row['id']; ?>"></i> </td>
                     </tr>
                     <?php
