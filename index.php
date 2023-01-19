@@ -81,7 +81,7 @@
                             <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stlastname']  ?></td>
                             <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stage']  ?></td>
                             <td data-id = "<?= $row['id']  ?>"><?php  echo $row['stgender']  ?></td>
-                            <td ><i class="fas fa-edit btnedit" data-id="<?php echo $row['id']; ?>"></i> </td>
+                            <td data-id="<?php echo $row['id']; ?>" ><i class="fas fa-edit btnedit"></i> </td>
                     </tr>
                     <?php
                 }

@@ -2,11 +2,11 @@
 function createDb()
 {
     $server = "localhost";
-    $username="ali";
-    $pass = "123456";
+    $username="root";
+    $pass = "";
     $dbname = "crudtest";
 
-    $con=mysqli_connect($server,$username,$pass,$dbname);
+    $con=mysqli_connect($server,$username,$pass);
 
       //Check Connection
     if(!$con)
@@ -15,7 +15,7 @@ function createDb()
     }
 
     //create Database
-    $sql = "CREATE DATABASE IF NOT EXISTS $dbname";
+    $sql = 'CREATE DATABASE IF NOT EXISTS '.$dbname;
 
     if(mysqli_query($con,$sql))
     {
